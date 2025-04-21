@@ -24,9 +24,9 @@ tests = {
 def send_welcome(chat_id):
     keyboard = {
         "keyboard": [
+            [{"text": "👩‍⚕️ درمانگران مرکز شیوا"}],
             [{"text": "📝 آزمون‌های روانشناسی"}],
-            [{"text": "📊 مشاهده تحلیل آزمون"}],
-            [{"text": "👩‍⚕️ درمانگران مرکز شیوا"}]
+            [{"text": "📊 مشاهده تحلیل آزمون"}]
         ],
         "resize_keyboard": True
     }
